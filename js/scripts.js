@@ -3,8 +3,5 @@ var dinosaur = 'triceratops'
 var dino = dinosaur.toUpperCase();
 
 var correctText = text.replace('Velociraptor', dino);
-var halfText = correctText.length/2;
-console.log(halfText)
-console.log(correctText.substr(0, 72));
+console.log(correctText.substr(0, correctText.length/2));
 
-// 9.3 toLowerCase() - przyklad do objasnienia
